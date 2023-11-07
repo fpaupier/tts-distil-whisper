@@ -1,10 +1,11 @@
----
-title: Distil Whisper Web
-emoji: 👀
-colorFrom: purple
-colorTo: green
-sdk: static
-pinned: false
----
+_From Hugging Face space https://huggingface.co/spaces/Xenova/distil-whisper-web/tree/main_
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## Running the project 
+
+```shell
+git clone git@github.com:fpaupier/tts-distil-whisper.git
+cd tts-distil-whisper
+npm install
+npm run dev
+# Go to  http://localhost:5173/ 
+```
